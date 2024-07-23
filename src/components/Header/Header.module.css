@@ -1,0 +1,15 @@
+.container {
+    background-color: #204040;
+}
+
+.button {
+    color:#BF8450; /* Defina a cor do texto */
+}
+
+.text{
+    color: #BF8450;
+}
+
+.text:hover {
+    color: white;
+}
