@@ -1,15 +1,19 @@
 .container {
-    background-color: #204040;
-}
-
-.button {
-    color:#BF8450; /* Defina a cor do texto */
+    background-color: #181D26;
 }
 
 .text{
-    color: #BF8450;
+    color: #A64C38;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.title{
+    color: white;
+    font-size: 24px;
 }
 
 .text:hover {
+    transform: scale(1.1);
     color: white;
 }
