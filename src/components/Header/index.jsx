@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-const Header = () => {
+const Header = (props) => {
     return (
         <Navbar fixed="top" data-bs-theme="dark" expand="sm" className={Styles.container}>
             <Container className={Styles.container}>
@@ -13,7 +13,7 @@ const Header = () => {
                 <Navbar.Toggle />
                 <Navbar.Collapse>
                     <Nav className="ms-auto">
-                        <Nav.Link className={Styles.text}  href="#compra">Compra</Nav.Link>
+                        <Nav.Link className={Styles.text}  onClick={props.compra}>Compra</Nav.Link>
                         <Nav.Link className={Styles.text}  href="#venda">Venda</Nav.Link>
                         <Nav.Link className={Styles.text}  href="#doacao">Doação</Nav.Link>
                     </Nav>
