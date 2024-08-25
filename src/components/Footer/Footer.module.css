@@ -1,0 +1,28 @@
+.footer {
+    background-color: #051120;
+    height: 170px;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.containerLinks{
+    display: flex;
+    width: 120px;
+    margin: 0 auto;
+}
+
+.link {
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #051120;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.icon {
+    color: #051120;
+}

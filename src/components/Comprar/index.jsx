@@ -7,9 +7,9 @@ const Comprar = ({props},ref) => {
     return(
         <>
         <div className={Styles.div}></div>
-        <div ref={ref} className={Styles.container + " container"}>
+        <div ref={ref} className={Styles.container}>
             <div className="row">
-                <div className="col-12 col-lg-7">
+                <div className=" col-md-7">
                     <div className="row">
                         <div className="col">
                             <h3 className={Styles.title}>Compre novos livros para a sua estante !!!</h3>
@@ -22,15 +22,20 @@ const Comprar = ({props},ref) => {
                                 <li className={Styles.text} >Livros novos em diversas categorias e autores;</li>
                                 <li className={Styles.text} >Opções de livros usados em ótimo estado para economizar;</li>
                             </ul>
+                            <div className={Styles.divRButton} >
+                                <button className={Styles.button + " btn btn-primary btn-lg"}>Comprar Livros</button>   
+                            </div>  
                         </div>
                     </div>
                 </div>
-                <div className={Styles.divImg + " col-12 col-lg-5"}>
-                    <img className={Styles.img + " text-center"} src={CompraImg}></img>
+                <div className={Styles.divImg + "  col-md-5"}>
+                    <img className={Styles.img} src={CompraImg}></img>
+                    <div className={Styles.divLButton} >
+                        <button className={Styles.button + " btn btn-primary btn-lg"}>Comprar Livros</button>   
+                    </div>
                 </div>
             </div>
         </div>
-        <div className={Styles.div}></div>
         </>
     )
 }

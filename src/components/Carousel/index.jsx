@@ -4,7 +4,7 @@ import Compra from "./img/compra.jpg"
 import Venda from "./img/venda.jpg"
 import Doacao from "./img/doacao.jpg"
 
-const Teste = () => {
+const Carosel = () => {
     return (
         <Carousel className={Styles.carousel}>
             <Carousel.Item interval={8000}>
@@ -32,4 +32,4 @@ const Teste = () => {
     );
 };
 
-export default Teste;
+export default Carosel;
