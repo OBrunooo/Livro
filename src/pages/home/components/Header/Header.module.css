@@ -1,0 +1,19 @@
+.container {
+    background-color: #0D0D0D;
+}
+
+.text{
+    color: #009BFF;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.title{
+    color: white;
+    font-size: 24px;
+}
+
+.text:hover {
+    transform: scale(1.1);
+    color: white;
+}

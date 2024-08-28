@@ -2,6 +2,7 @@
 import { forwardRef } from "react"
 import Styles from "./Comprar.module.css"
 import CompraImg from "./img/compra.png"
+import { Link } from "react-router-dom"
 
 const Comprar = ({props},ref) => {
     return(
@@ -23,7 +24,9 @@ const Comprar = ({props},ref) => {
                                 <li className={Styles.text} >Opções de livros usados em ótimo estado para economizar;</li>
                             </ul>
                             <div className={Styles.divRButton} >
-                                <button className={Styles.button + " btn btn-primary btn-lg"}>Comprar Livros</button>   
+                                <Link to={'/teste'} >
+                                    <button className={Styles.button + " btn btn-primary btn-lg"}>Comprar Livros</button>   
+                                </Link>
                             </div>  
                         </div>
                     </div>
@@ -31,7 +34,9 @@ const Comprar = ({props},ref) => {
                 <div className={Styles.divImg + "  col-md-5"}>
                     <img className={Styles.img} src={CompraImg}></img>
                     <div className={Styles.divLButton} >
-                        <button className={Styles.button + " btn btn-primary btn-lg"}>Comprar Livros</button>   
+                        <Link to={'/teste'} >
+                            <button className={Styles.button + " btn btn-primary btn-lg"}>Comprar Livros</button>   
+                        </Link>
                     </div>
                 </div>
             </div>
