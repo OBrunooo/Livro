@@ -1,16 +1,15 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './pages/home/Home';
-import Teste from './pages/teste/Teste';
+import Comprar from './pages/comprar/Comprar';
 
 function App() {
 
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Home />}/>
-        <Route path='/teste' element={<Teste />}/>
+        <Route path='/as' element={<Home />}/>
+        <Route path='/' element={<Comprar />}/>
       </Routes>
     </BrowserRouter>
     

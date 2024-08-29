@@ -2,8 +2,9 @@ import Styles from "./Header.module.css"
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from "react-router-dom";
 
-const Header = ({compra, venda, doacao}) => {
+const Header = () => {
     return (
         <Navbar fixed="top" data-bs-theme="dark" expand="sm" className={Styles.container}>
             <Container className={Styles.container}>
@@ -13,9 +14,9 @@ const Header = ({compra, venda, doacao}) => {
                 <Navbar.Toggle />
                 <Navbar.Collapse>
                     <Nav className="ms-auto">
-                        <Nav.Link className={Styles.text}  onClick={compra}>Compra</Nav.Link>
-                        <Nav.Link className={Styles.text}  onClick={venda}>Venda</Nav.Link>
-                        <Nav.Link className={Styles.text}  onClick={doacao}>Doação</Nav.Link>
+                        <Nav.Link className={Styles.text}> <Link to={'/comprar'} className={Styles.link} >Compra</Link></Nav.Link>
+                        <Nav.Link className={Styles.text}> <Link to={'/comprar'} className={Styles.link} >Venda</Link></Nav.Link>
+                        <Nav.Link className={Styles.text}> <Link to={'/comprar'} className={Styles.link} >Doação</Link></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

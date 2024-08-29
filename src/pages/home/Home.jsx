@@ -1,39 +1,22 @@
-import './App.css'
-import { useRef } from 'react';
-import Header from "./components/Header"
-import Carousel from './components/Carousel';
-import Comprar from './components/Comprar'
-import Venda from './components/Venda';
-import Doacao from './components/Doacao';
-import Footer from './components/Footer';
+import './main.css'
+import Header from '../../components/Header';
+import Carousel from "./container/Carousel"
+import Comprar from './container/Comprar'
+import Venda from './container/Venda';
+import Doacao from './container/Doacao';
+import Footer from '../../components/Footer';
 
 
-function Home() {
-  // Link para o section compra
-  const refCompra = useRef(null);
-  const handleClickCompra = () => {
-    refCompra.current?.scrollIntoView({behavior: 'smooth'})
-  };
-  const refVenda = useRef(null);
-  const handleClickVenda = () => {
-    refVenda.current?.scrollIntoView({behavior: 'smooth'})
-  };
-
-  const refDoacao = useRef(null);
-  const handleClickDoacao = () => {
-    refDoacao.current?.scrollIntoView({behavior: 'smooth'})
-  };
-
-
+const Home = () => {
   
   return (
     <>
       <div className="body">
-        <Header compra={handleClickCompra} venda={handleClickVenda} doacao={handleClickDoacao}></Header>
+        <Header></Header>
         <Carousel></Carousel>
-        <Comprar ref={refCompra}></Comprar>
-        <Venda ref={refVenda}></Venda>
-        <Doacao ref={refDoacao}></Doacao>
+        <Comprar ></Comprar>
+        <Venda ></Venda>
+        <Doacao></Doacao>
         <Footer></Footer>
       </div>
     </>
