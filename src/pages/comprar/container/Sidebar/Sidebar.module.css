@@ -1,0 +1,36 @@
+.container {
+    max-width: 80%;
+    width: 100%;
+    align-items: start;
+    padding:100px 0px;
+    margin-left: 20px;
+}
+
+.inputText {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.filtro {
+    border-top: 1px solid gray;
+    padding-top: 20px;
+}
+
+.filtroTitle {
+    font-size: 120%;
+    margin: 0;
+}
+
+.divCheckBox {
+    width: 80%;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.filtroInput {
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+}

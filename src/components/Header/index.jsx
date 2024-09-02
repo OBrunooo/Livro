@@ -15,8 +15,8 @@ const Header = () => {
                 <Navbar.Collapse>
                     <Nav className="ms-auto">
                         <Nav.Link className={Styles.text}> <Link to={'/comprar'} className={Styles.link} >Compra</Link></Nav.Link>
-                        <Nav.Link className={Styles.text}> <Link to={'/comprar'} className={Styles.link} >Venda</Link></Nav.Link>
-                        <Nav.Link className={Styles.text}> <Link to={'/comprar'} className={Styles.link} >Doação</Link></Nav.Link>
+                        <Nav.Link className={Styles.text}> <Link to={'/'} className={Styles.link} >Venda</Link></Nav.Link>
+                        <Nav.Link className={Styles.text}> <Link to={'/'} className={Styles.link} >Doação</Link></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

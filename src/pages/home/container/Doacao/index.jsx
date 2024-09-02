@@ -13,12 +13,10 @@ const Doacao = ({props}, ref) => {
                 </div>
                 <Link to={'/doar'} >
                     <div className={Styles.containerImg + " row"}>
-                        <a className="p-0" href="">
                             <img className={Styles.img} src={imgDoacao} alt="" />
                             <div className={Styles.containerButton} >
                                 <button className={Styles.button} >Contribuir</button>
                             </div>
-                        </a>
                     </div>
                 </Link>
             </div>

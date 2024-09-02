@@ -1,4 +1,4 @@
-import './main.css'
+import './home.css'
 import Header from '../../components/Header';
 import Carousel from "./container/Carousel"
 import Comprar from './container/Comprar'
@@ -11,14 +11,14 @@ const Home = () => {
   
   return (
     <>
-      <div className="body">
-        <Header></Header>
-        <Carousel></Carousel>
-        <Comprar ></Comprar>
-        <Venda ></Venda>
-        <Doacao></Doacao>
-        <Footer></Footer>
-      </div>
+    <div className='body'>
+      <Header></Header>
+      <Carousel></Carousel>
+      <Comprar ></Comprar>
+      <Venda ></Venda>
+      <Doacao></Doacao>
+      <Footer></Footer>
+    </div>
     </>
   )
 }
