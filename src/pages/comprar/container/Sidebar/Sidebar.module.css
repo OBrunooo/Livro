@@ -2,8 +2,9 @@
     max-width: 80%;
     width: 100%;
     align-items: start;
-    padding:100px 0px;
+    padding:150px 0px;
     margin-left: 20px;
+    font-size: 12px;
 }
 
 .inputText {
@@ -14,6 +15,7 @@
 
 .filtro {
     border-top: 1px solid gray;
+    padding: 0;
     padding-top: 20px;
 }
 

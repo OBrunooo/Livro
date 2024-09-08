@@ -8,16 +8,15 @@ import Books from './container/Books'
 const Comprar = () => {
     return (
         <>
+        <Header></Header>
         <div className="bodyComprar">
-            <Header></Header>
-            <div className="row">
-                <div className="col-md-2 col-12 p-0">
+            <div className="comprarContainer row">
+                <div className="col-lg-2 col-12 p-0">
                     <Sidebar></Sidebar>
                 </div>
-                <div className="col-md-8">
+                <div className="col-lg-10 p-0">
                     <Books></Books>
                 </div>
-                <div className="col-md-2"></div>
             </div>
             <Footer></Footer>
         </div>

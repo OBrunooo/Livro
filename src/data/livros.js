@@ -25,7 +25,7 @@ const ItensBook = [{
 {
     id:'4',
     price: '35,40',
-    name: 'A metamorfose capa comum',
+    name: 'A metamorfose',
     type: 'Literatura',
     autor: 'Franz Kafka',
     imageUrl: 'https://m.media-amazon.com/images/I/71QLwli7GUL._SY466_.jpg'
@@ -51,7 +51,7 @@ const ItensBook = [{
     price: '37,80',
     name: 'O Pequeno Príncipe',
     type: 'literatura infantil',
-    autor: 'Antoine de Saint-Exupéry',
+    autor: 'Antoine',
     imageUrl: 'https://m.media-amazon.com/images/I/71CGJI0uNyL._SY466_.jpg'
 },
 {
